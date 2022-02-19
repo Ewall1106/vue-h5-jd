@@ -1,0 +1,26 @@
+name: Deploy-Gh-Pages
+
+on:
+  push:
+    branches: [2.x]
+  pull_request:
+    branches: [2.x]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Git Source
+        uses: actions/checkout@v2
+
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: gh-pages
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
