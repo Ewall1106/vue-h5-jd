@@ -3,6 +3,7 @@
     <ImageSwipe />
     <NavSwipe />
     <SecondGoodsKill />
+    <GoodsItem />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import ImageSwipe from "@/components/ImageSwipe";
 import NavSwipe from "@/components/NavSwipe";
 import SecondGoodsKill from "@/components/SecondGoodsKill";
+import GoodsItem from "@/components/GoodsItem";
 
 export default {
   name: "Home",
@@ -17,6 +19,7 @@ export default {
     ImageSwipe,
     NavSwipe,
     SecondGoodsKill,
+    GoodsItem,
   },
 };
 </script>
