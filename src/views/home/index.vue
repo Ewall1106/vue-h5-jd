@@ -1,10 +1,13 @@
 <template>
-  <div>首页</div>
+  <div><ImageSwipe /></div>
 </template>
 
 <script>
+import ImageSwipe from "@/components/ImageSwipe";
 export default {
   name: "Home",
-  components: {},
+  components: {
+    ImageSwipe,
+  },
 };
 </script>
