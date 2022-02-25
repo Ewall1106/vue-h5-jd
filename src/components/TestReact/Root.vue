@@ -1,9 +1,9 @@
 <template>
-  <div class="root"><slot /></div>
+  <div><slot /></div>
 </template>
 
 <script>
 export default {
-  name: "Root",
-};
+  name: 'Root'
+}
 </script>

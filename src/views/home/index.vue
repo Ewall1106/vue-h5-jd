@@ -4,6 +4,7 @@
     <NavSwipe />
     <SecondGoodsKill />
     <GoodsItem />
+    <TestReact />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import ImageSwipe from "@/components/ImageSwipe";
 import NavSwipe from "@/components/NavSwipe";
 import SecondGoodsKill from "@/components/SecondGoodsKill";
 import GoodsItem from "@/components/GoodsItem";
+import TestReact from "@/components/TestReact";
 
 export default {
   name: "Home",
@@ -20,6 +22,7 @@ export default {
     NavSwipe,
     SecondGoodsKill,
     GoodsItem,
+    TestReact,
   },
 };
 </script>

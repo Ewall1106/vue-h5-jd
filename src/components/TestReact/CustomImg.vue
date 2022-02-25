@@ -1,10 +1,10 @@
 <template>
-  <img :src="imgSrc" />
+  <img :src="src" />
 </template>
 
 <script>
 export default {
   name: "CustomImg",
-  props: ["imgSrc"],
+  props: ["src"],
 };
 </script>
